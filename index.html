@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>庫拉皮卡丘蚓's blog</title>
+  <meta charset="UTF-8">
+  <style>
+    *{
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    h2{
+        height: 500vh;
+        background: linear-gradient(red,yellow);
+    }
+    a{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        bottom: 20px;
+        border-radius: 20%;
+        background-color: #464646;
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0px 0px 10px #787878;
+    }
+    #GoTopButton{
+        width: 60px;
+        height: 60px;
+        font-size: 32px;
+        border: none;
+        background-color: rgb(196, 245, 245);
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;/* 鼠標移動至上方時改為手掌符號 */
+    }
+    #Top{
+        background-color: aqua;
+    }
+  </style>
 </head>
 <body>
-    <p>hello</p>
+    <div id="Top"></div>
+    <a href="#Top"><img id="GoTopButton" src="image/MaterialSymbolsArrowUpwardRounded.svg" alt="GOTOP"></a>
+    <h2>aa</h2>
 </body>
 </html>
